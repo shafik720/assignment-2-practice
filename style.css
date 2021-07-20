@@ -12,12 +12,14 @@ header{
     background-color: #2D25A0;
     ;
 }
-nav{
+.header{
+    
     width: 1160px;
     margin: auto;
     background-color: #2D25A0;
     color: white;
 }
+
 nav a{
     color: white;
     text-decoration: none;
@@ -27,6 +29,7 @@ nav ul{
     list-style: none;
     display: flex;
     column-gap: 20px;
+    padding-inline-start: 0px;
 }
 .menubars{
     display: flex;
@@ -40,4 +43,17 @@ nav ul{
 }
 #login-icon{
     margin-right: 20px;
+}
+
+/* ------------- Banner ------------- */
+.banner a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.banner h1{
+    font-size: 60px;
+}
+#login-icon2{
+    margin-left: 20px;
 }
