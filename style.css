@@ -1,0 +1,30 @@
+
+
+
+/* ------------- Menu Bar ------------- */
+header{
+    width: 1350px;
+    margin: auto;
+    background-color: blue;
+}
+nav{
+    width: 1160px;
+    margin: auto;
+    background-color: blue;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.menubars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
