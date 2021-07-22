@@ -130,11 +130,7 @@ nav ul{
      display: flex;
      column-gap: 50px;
  }
- .legend img{
-     width: 250px;
-     height: 250px;
-     
- }
+ 
  .legend {
      text-align: center;
      display: flex;
