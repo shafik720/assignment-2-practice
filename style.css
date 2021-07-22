@@ -23,7 +23,7 @@ header{
 nav a{
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 nav ul{
     list-style: none;
@@ -46,6 +46,10 @@ nav ul{
 }
 
 /* ------------- Banner ------------- */
+.banners  {
+    display: flex;
+    margin-top: 67px;
+}
 .banner a{
     color: white;
     text-decoration: none;
@@ -56,4 +60,9 @@ nav ul{
 }
 #login-icon2{
     margin-left: 20px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
 }
