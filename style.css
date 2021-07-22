@@ -10,7 +10,7 @@ header{
     height: 677px;
     margin: auto;
     background-color: #2D25A0;
-    ;
+    
 }
 .header{
     
@@ -66,3 +66,57 @@ nav ul{
     height: 438px;
     margin-left: 102px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*----------------------------------
+    Making Responsive with media query 
+    ----------------------------------*/
+
+    @media only screen and (max-width:688px) {
+        nav{
+            display: none;
+        } 
+        .header{
+            width: 100%;
+            margin-top: -70px;
+        }
+        .banners{
+            display: flex;
+            flex-direction: column;
+            row-gap: 90px;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+        .banners h1{
+            font-size: 36px;
+        }
+        #banner-heading{
+            margin-left: 16px;
+        }
+        .banner img{
+            width: 329px;
+            height: 259px;
+            margin-left: 0px;
+        }
+        #banner-image{
+            text-align: center;
+        }
+    }
+
+    @media  only screen and (min-width:689px) and (max-width:992px){    }
