@@ -121,7 +121,7 @@ nav ul{
     color: white;
 }
 .watch-now{
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -180,6 +180,15 @@ nav ul{
             justify-content: center;
             align-items: center;
             margin-top: 100px;
+        }
+        .extra{
+            display: flex;
+            flex-direction: column;
+            row-gap: 60px;
+        }
+        .extra0 img{
+            float: unset;
+            width: 100%;
         }
     }
 
