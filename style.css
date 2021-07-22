@@ -68,6 +68,34 @@ nav ul{
 }
 
 
+/* ----------------- Players Section -------------------- */
+
+.container{
+    margin-top: 100px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1160px;
+    margin: auto;
+    
+}
+.player{
+    box-shadow: 0px 0px 5px 5px grey;
+    padding: 20px;
+    border: 1px solid red;
+}
+.player h2{
+    font-size: 1.5em;
+}
+
+.player img{
+    width: 100%;
+}
+
 
 
 
