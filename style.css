@@ -133,6 +133,7 @@ nav ul{
  .legend img{
      width: 250px;
      height: 250px;
+     
  }
  .legend {
      text-align: center;
@@ -143,6 +144,7 @@ nav ul{
  }
  .legends-para{
      width: 60%;
+     
  }
 
 
@@ -230,6 +232,11 @@ footer{
         .extra0 img{
             float: unset;
             width: 100%;
+        }
+        .legends{
+            display: flex;
+            flex-direction: column;
+            row-gap: 50px;
         }
         .footer-image img{
             width: 70%;
