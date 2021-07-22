@@ -77,6 +77,7 @@ nav ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+    row-gap: 40px;
     justify-content: center;
     align-items: center;
     width: 1160px;
